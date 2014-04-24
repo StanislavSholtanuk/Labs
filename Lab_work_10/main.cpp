@@ -10,7 +10,7 @@ int main()
 	int n, m; double x, y = 0;
 	cin >> m >> n >> x;
 
-	// formulae for calculsting the s variable in C++:
+	// formulae for calculating the s variable in C++:
 
 	//for (int i = n; i >= 1; i--)
 	//{

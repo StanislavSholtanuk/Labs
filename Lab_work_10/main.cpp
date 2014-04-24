@@ -41,7 +41,7 @@ int main()
 			fimul n;                 n * n = (i + 1) * (i + 1)
 			fdiv x;                  (i + 1) * (i + 1) / x
 			fmul st(1), st(0);       s *= (i + 1) * (i + 1) / x
-			fstp y                   deleting the register with the following expression : (i + 1) * (i + 1) / x
+			fstp y;                  deleting the register with the following expression : (i + 1) * (i + 1) / x
 
 			loop calc
 

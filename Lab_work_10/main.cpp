@@ -37,7 +37,7 @@ int main()
 			fadd st(1), st(0);       s += 1 / (i * (2 * m + i + 1))
 			fstp y;                  deleting the register with the following expression : 1 / (i * (2 * m + i + 1))
 
-			fild n;                  n = i + 1 (see the 31th line)
+			fild n;                  n = i + 1 (see the 33th line)
 			fimul n;                 n * n = (i + 1) * (i + 1)
 			fdiv x;                  (i + 1) * (i + 1) / x
 			fmul st(1), st(0);       s *= (i + 1) * (i + 1) / x
